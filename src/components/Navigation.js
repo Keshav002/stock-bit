@@ -7,7 +7,7 @@ const Navigation = () => {
         <nav className="navbar">
             <div className="brand-title">iBid.</div>
             
-        <a href="#0" className="toggle-button" onClick={() => setOpen(!open)}>
+        <a href="#0" className="toggle-button" onClick={() => setOpen(!open)}>  {/*toggle button */}
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
